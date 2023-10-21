@@ -61,6 +61,13 @@ h1 {
   color: aliceblue;
 }
 
+.abt_metext {
+  width: 66%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 50px;
+}
+
 h2 {
   text-align: center;
   padding: 10px;
