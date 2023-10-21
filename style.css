@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 15px;
+  background-color: #203d53;
+  color: aliceblue;
+  border-color: #203d53;
+  border-style: solid;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: bolder;
+  cursor: auto;
+}
+ul {
+  display: inline-block;
+  margin-left: 55%;
+  cursor: pointer;
+}
+
+li {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.bg {
+  width: 100%;
+  z-index: 0;
+}
+
+.imgdiv {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #203d53;
+}
+
+.text {
+  position: absolute;
+  bottom: 55%;
+  left: 8%;
+  text-align: left;
+  font-size: 30px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+.abt_me {
+  background-color: #203d53;
+  color: aliceblue;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#my_title {
+  text-align: center;
+}
+.myphoto {
+  margin: 50px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
