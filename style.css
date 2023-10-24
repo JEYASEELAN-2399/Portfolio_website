@@ -9,6 +9,9 @@ header {
   color: aliceblue;
   border-color: #203d53;
   border-style: solid;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 h1 {
@@ -21,6 +24,7 @@ ul {
   display: inline-block;
   margin-left: 55%;
   cursor: pointer;
+  
 }
 
 li {
@@ -30,14 +34,18 @@ li {
   text-transform: capitalize;
 }
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
 }
 
+ 
 .bg {
   width: 100%;
-  z-index: 0;
+}
+
+main{
+  background-color: #203d53;
 }
 
 .imgdiv {
@@ -45,6 +53,7 @@ a{
   text-align: center;
   color: whitesmoke;
   background-color: #203d53;
+
 }
 
 .text {
@@ -82,7 +91,7 @@ h2 {
   text-align: center;
   padding: 10px;
   font-size: 40px;
-  font-weight:1000;
+  font-weight: 1000;
   color: aliceblue;
 }
 
@@ -96,55 +105,75 @@ h2 {
   border-radius: 30px;
 }
 
-.skills{
-background-color: #203d53;
+.skills {
+  margin-top: 05%;
+  padding-top: 50px;
+  background-color: #203d53;
 }
 
-.logo{
- 
+.logo {
   border-radius: 10px;
-
 }
-.csslogo{
- border-radius: 10px;
- margin-left: 10%;
-}
-
-.jslogo{
- 
+.csslogo {
   border-radius: 10px;
   margin-left: 10%;
 }
-.reactlogo{
 
+.jslogo {
   border-radius: 10px;
   margin-left: 10%;
-
-
 }
-
-.nodelogo{
-
+.reactlogo {
   border-radius: 10px;
   margin-left: 10%;
-
 }
 
-.javalogo{
+.nodelogo {
+  border-radius: 10px;
+  margin-left: 10%;
+}
 
+.javalogo {
   border-radius: 10px;
   margin-left: 10%;
   margin-top: 08%;
+}
+
+.mysqllogo {
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 05%;
+}
+.skills_align {
+  margin-left: 10%;
+  margin-top: 05%;
+}
+
+.contact{
+  background-color: aliceblue;
+  color: black;
+  margin-top:10%;
+  padding-top: 100px;
+  height: 700px;
+  width: auto;
 
 }
 
-.mysqllogo{
-  border-radius: 100px;
-  margin-left: 10%;
-  margin-top: 05%;
+#contactcolor{
+  color: black;
+}
+
+#letsconnect{
+  color:black;
+  text-align: center;
+  font-size: 25px;
+ 
 
 }
-.skills_align{
-  margin-left: 10%;
-  margin-top: 05%;
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
