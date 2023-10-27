@@ -24,7 +24,6 @@ ul {
   display: inline-block;
   margin-left: 55%;
   cursor: pointer;
-  
 }
 
 li {
@@ -39,12 +38,11 @@ a {
   color: aliceblue;
 }
 
- 
 .bg {
   width: 100%;
 }
 
-main{
+body {
   background-color: #203d53;
 }
 
@@ -53,7 +51,6 @@ main{
   text-align: center;
   color: whitesmoke;
   background-color: #203d53;
-
 }
 
 .text {
@@ -71,6 +68,8 @@ h1 {
   font-weight: 900;
 }
 .abt_me {
+  margin-top: 5%;
+  padding-top: 50px;
   background-color: #203d53;
   color: aliceblue;
 }
@@ -149,30 +148,26 @@ h2 {
   margin-top: 05%;
 }
 
-.contact{
+.contact {
   background-color: aliceblue;
   color: black;
-  margin-top:10%;
+  margin-top: 10%;
   padding-top: 100px;
   height: 700px;
   width: auto;
-
 }
 
-#contactcolor{
+#contactcolor {
   color: black;
 }
 
-#letsconnect{
-  color:black;
+#letsconnect {
+  color: black;
   text-align: center;
   font-size: 25px;
- 
-
 }
 
-@media
-(prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
