@@ -104,7 +104,7 @@ h2 {
   border-radius: 30px;
 }
 
-.skillsheading{
+.skillsheading {
   text-align: center;
   padding: 5%;
   font-size: 40px;
@@ -117,21 +117,15 @@ h2 {
   flex-wrap: wrap;
   gap: 10%;
   justify-content: center;
-
 }
 
 .skills_align > * {
   margin-bottom: 10%; /* Set the desired gap between rows */
 }
 
-
-
-.align-items{
+.align-items {
   border-radius: 20px;
-
-
 }
-
 
 .contact {
   background-color: aliceblue;
@@ -142,6 +136,20 @@ h2 {
   width: auto;
 }
 
+.addresscontainer {
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 5%;
+  font-size: 24px;
+}
+
+.addressalign {
+  padding: 1%;
+  word-spacing: 10px;
+}
 #contactcolor {
   color: black;
 }
