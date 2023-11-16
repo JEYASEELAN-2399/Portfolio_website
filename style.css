@@ -104,49 +104,34 @@ h2 {
   border-radius: 30px;
 }
 
-.skills {
-  margin-top: 05%;
-  padding-top: 50px;
-  background-color: #203d53;
+.skillsheading{
+  text-align: center;
+  padding: 5%;
+  font-size: 40px;
+  font-weight: 1000;
+  color: aliceblue;
 }
 
-.logo {
-  border-radius: 10px;
-}
-.csslogo {
-  border-radius: 10px;
-  margin-left: 10%;
-}
-
-.jslogo {
-  border-radius: 10px;
-  margin-left: 10%;
-}
-.reactlogo {
-  border-radius: 10px;
-  margin-left: 10%;
-}
-
-.nodelogo {
-  border-radius: 10px;
-  margin-left: 10%;
-}
-
-.javalogo {
-  border-radius: 10px;
-  margin-left: 10%;
-  margin-top: 08%;
-}
-
-.mysqllogo {
-  border-radius: 10px;
-  margin-left: 10%;
-  margin-top: 05%;
-}
 .skills_align {
-  margin-left: 10%;
-  margin-top: 05%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+
 }
+
+.skills_align > * {
+  margin-bottom: 10%; /* Set the desired gap between rows */
+}
+
+
+
+.align-items{
+  border-radius: 20px;
+
+
+}
+
 
 .contact {
   background-color: aliceblue;
